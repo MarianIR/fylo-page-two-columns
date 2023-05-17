@@ -1,0 +1,36 @@
+@mixin headings {
+  font-size: clamp(1.8rem, 6vw, 3rem);
+  color: $primaryColor1;
+  font-weight: bold;
+  margin: 2rem auto;
+}
+
+@mixin paragraphs {
+  color: $primaryColor2;
+  margin: 0 auto 2rem;
+  font-size: clamp(1.5rem, 6vw, 2rem);
+}
+
+@mixin illustration {
+  width: 100%;
+  max-width: 70rem;
+  height: auto;
+  margin: 1rem auto;
+}
+
+@mixin inputs {
+  margin: 1rem 0;
+  padding: 1rem;
+  outline: none;
+  border-radius: 0.3rem;
+  border: 0.1rem solid $primaryColor1;
+}
+
+@mixin buttons {
+  border: none;
+  color: $neutralColor1;
+  background-color: $accentColor1;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  padding: 1.5rem;
+}

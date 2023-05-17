@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+    <link rel="stylesheet" href="./scss/main.css" />
+  </head>
+  <body>
+    <header class="navigation">
+      <img
+        src="./images/logo.svg"
+        alt="this is the logo"
+        width="100"
+        height="30"
+        class="logo"
+      />
+      <ul class="list-element">
+        <li class="element-content">Features</li>
+        <li class="element-content">Team</li>
+        <li class="element-content">Sing In</li>
+      </ul>
+    </header>
+    <main class="main-section">
+      <section class="secure-files">
+        <img
+          src="./images/illustration-1.svg"
+          alt="this is the first illustration"
+          width="220"
+          height="200"
+          class="first-illustration"
+        />
+        <div class="secure-files-content">
+          <article class="secure-files-article">
+            <h2 class="files-heading">
+              All your files in one secure location, accessible anywhere.
+            </h2>
+            <p class="files-paragraph">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+          </article>
+          <div class="enter-email">
+            <input
+              type="email"
+              id="email"
+              class="email-input"
+              placeholder="Enter your email..."
+              required
+            />
+            <button class="get-started">Get Started</button>
+          </div>
+        </div>
+      </section>
+      <section class="stay-productive">
+        <img
+          src="./images/illustration-2.svg"
+          alt="This is the second illustration"
+          width="220"
+          height="200"
+          class="second-illustration"
+        />
+        <article class="stay-productive-article">
+          <h3 class="stay-productive-heading">
+            Stay productive, wherever you are
+          </h3>
+          <p class="stay-productive-paragraph">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p class="stay-productive-paragraph">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <a href="#" class="link-to"
+            >See how Fylo works
+            <img
+              src="./images/icon-arrow.svg"
+              alt="this is an arrow"
+              width="20"
+              height="20"
+              class="arrow"
+          /></a>
+          <div class="testimonial">
+            <img
+              src="./images/icon-quotes.svg"
+              alt="this are quotes"
+              width="20"
+              height="20"
+              class="quote"
+            />
+            <p class="testimonial-paragraph">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="person">
+              <img
+                src="./images/avatar-testimonial.jpg"
+                alt="this is kyle's portret"
+                width="30"
+                height="30"
+                class="portret"
+              />
+              <div class="person-informations">
+                <h5 class="name">Kyle Burton</h5>
+                <h6 class="status">Foundar & CEO, Huddle</h6>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="get-early-access">
+        <div class="early-access-text">
+          <h3 class="access-heading">Get early access today</h3>
+          <p class="access-paragraph">
+            Get early access today It only takes a minute to sign up and our
+            free starter tier is extremely generous. If you have any questions,
+            our support team would be happy to help you.
+          </p>
+        </div>
+        <div class="enter-email">
+          <input
+            type="email"
+            id="email"
+            class="email-input"
+            placeholder="email@example.com"
+          />
+          <button class="get-started">Get Started For Free</button>
+        </div>
+      </section>
+      <footer class="footer-section">
+        <img
+          src="./images/logo.svg"
+          alt="This is the logo"
+          width="100"
+          height="30"
+          class="logo"
+        />
+        <section class="informations-about-us">
+          <div class="contacts">
+            <h4 class="tel-number">
+              <img
+                src="./images/icon-phone.svg"
+                alt="This is phone's icon"
+                width="25"
+                height="25"
+                class="phone-icon"
+              />Phone: +1-543-123-4567
+            </h4>
+            <h4 class="email">
+              <img
+                src="./images/icon-email.svg"
+                alt="This is email's icon"
+                width="25"
+                height="25"
+                class="email-icon"
+              />example@gmail.com
+            </h4>
+          </div>
+          <div class="about">
+            <a href="#" class="about-link">About Us</a>
+            <a href="#" class="about-link">Jobs</a>
+            <a href="#" class="about-link">Press</a>
+            <a href="#" class="about-link">Blog</a>
+          </div>
+          <div class="terms-privacy">
+            <a href="#" class="terms-privacy-elements">Contact Us</a>
+            <a href="#" class="terms-privacy-elements">Terms</a>
+            <a href="#" class="terms-privacy-elements">Privacy</a>
+          </div>
+          <div class="social-media">
+            <img
+              src="./social-media-icons/facebook-f.svg"
+              alt="This is facebook's icon"
+              width="30"
+              height="30"
+              class="social-media-icon"
+            />
+            <img
+              src="./social-media-icons/twitter.svg"
+              alt="This is twitter's icon"
+              width="30"
+              height="30"
+              class="social-media-icon"
+            />
+            <img
+              src="./social-media-icons/instagram.svg"
+              alt="This is instagram's icon"
+              width="30"
+              height="30"
+              class="social-media-icon"
+            />
+          </div>
+        </section>
+      </footer>
+      <div>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a
+            href="https://www.linkedin.com/in/marian-irinel-raileanu-1a4088206/"
+            target="_blank"
+            >Marian</a
+          >.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
